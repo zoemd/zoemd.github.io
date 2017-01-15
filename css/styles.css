@@ -125,7 +125,7 @@ section.clearfix{
     padding-top: 5%;
     padding-bottom: 5%;
     text-align: center;
-    background: black url(assets/images/banner.jpg) no-repeat center;
+    background: black url(../assets/images/banner.jpg) no-repeat center;
     
 }
 /*.section-left,
