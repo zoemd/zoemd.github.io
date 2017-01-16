@@ -2,7 +2,7 @@
 
 *{
   margin: 0;
-    padding: 0;
+  padding: 0;
 	outline: none;
 	border: none;
 	-webkit-box-sizing: border-box;
@@ -556,7 +556,7 @@ div.app-image a img {
 }
 /* About Me */
 
-div.gross img {
+.gross img {
     float: left;
     width: 270px;
     height: 270px;
@@ -568,7 +568,7 @@ div.gross img {
 				 4px 4px 0px rgba(150,150,150,.7);
 }
 
-div.aboutme {
+.aboutme {
     display: block;
     color: #000;
     width: 40%;
@@ -577,7 +577,7 @@ div.aboutme {
     float: right;
 }
 
-div.aboutme p {
+.aboutme p {
     font-size: 17px;
     
 }
