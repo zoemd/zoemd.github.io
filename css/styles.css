@@ -318,7 +318,7 @@ div.gross img {
     float: left;
     width: 270px;
     height: 270px;
-    margin-left: 22%;
+    margin-left: 20%;
     margin-top: 5%;
     border: 2px solid #403E40;
     text-align: center;
@@ -331,7 +331,7 @@ div.aboutme {
     color: #000;
     width: 40%;
     margin-top: 5%;
-    margin-right: 205px;
+    margin-right: 230px;
     float: right;
 }
 
