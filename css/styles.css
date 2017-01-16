@@ -416,6 +416,21 @@ div.web-banner a img {
     width: 750px;
 }
 
+/* E(ART)H */
+
+div.earth-images {
+    width: 100%;
+    text-align: center;
+}
+
+div.earth-images a img.earthlogo {
+    height: 125px;
+}
+
+div.earth-images a img.card {
+    height: 300px;
+}
+
 /* Ghibli Infographic */
 
 div.infographic {
