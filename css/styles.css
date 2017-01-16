@@ -419,16 +419,18 @@ div.web-banner a img {
 /* E(ART)H */
 
 div.earth-images {
-    width: 100%;
-    text-align: center;
+    	width: 100%;
+    	text-align: center;
 }
 
 div.earth-images a img.earthlogo {
-    height: 125px;
+    	height: 125px;
+	width: 240px;
 }
 
 div.earth-images a img.card {
-    height: 300px;
+    	height: 300px;
+	width: 527px;
 }
 
 /* Ghibli Infographic */
