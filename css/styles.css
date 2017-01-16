@@ -479,6 +479,26 @@ div.ghibli-p p {
     font-size: 15px;
 }
 
+/* Paperless Post */
+
+div.marketing-image {
+    width: 100%;
+    text-align: center;
+}
+
+div.marketing-image a img {
+    height: 450px;
+}
+
+div.marketing-text {
+    text-align: center;
+}
+
+div.marketing-text p {
+    color: #000;
+    font-size: 15px;
+}
+
 /* Achievements */
 div.illustrator-image {
     text-align: center;
