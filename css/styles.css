@@ -433,6 +433,27 @@ div.earth-images a img.card {
 	width: 527px;
 }
 
+/* Fair Use */
+
+div.fairuse-images {
+    text-align: center;
+}
+
+div.fairuse-images a img {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.fairuse-text {
+    text-align: center;
+}
+
+div.fairuse-text p {
+    color: #000;
+    font-size: 15px;
+}
+
 /* Ghibli Infographic */
 
 div.infographic {
