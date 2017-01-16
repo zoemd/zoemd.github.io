@@ -42,14 +42,16 @@ header{
 	height: auto;
 	background: black;
 }
-.header-left,
+
 .header-right{
 	position: relative;
 	color: white;
 	float: left;
 }
+
 .header-left{
-	width: 30%;
+	width: 100%;
+	text-transform: uppcase;
 }
 .header-right label{
 	position: absolute;
