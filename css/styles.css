@@ -454,6 +454,26 @@ div.fairuse-text p {
     font-size: 15px;
 }
 
+/* Parmigianos */
+div.parmigianos-images {
+    text-align: center;
+    width: 100%;
+}
+
+div.parmigianos-images a img {
+    height: 300px;
+    width: 364px;
+}
+
+div.parmigianos-text {
+    text-align: center;
+}
+
+div.parmigianos-text p {
+    color: #000;
+    font-size 15px;
+}
+
 /* Ghibli Infographic */
 
 div.infographic {
