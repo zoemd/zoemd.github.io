@@ -516,14 +516,14 @@ div.earth-images a img.card {
 
 div.fairuse-images {
     text-align: center;
-	box-shadow: 2.5px 2.5px 0px black,
-                 4px 4px 0px rgba(150,150,150,.7);
 }
 
 div.fairuse-images a img {
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
+	box-shadow: 2.5px 2.5px 0px black,
+                 4px 4px 0px rgba(150,150,150,.7);
 }
 
 div.fairuse-text {
