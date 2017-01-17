@@ -446,6 +446,34 @@ div.web-banner a img {
     width: 750px;
 }
 
+/*Argentina Site */
+
+div.argentina-site {
+    width: 100%;
+    text-align: center;
+}
+
+div.argentina-site p {
+    text-align: left;
+    color: #000;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+div.argentina-site a img {
+    height: 500px;
+    width: 765px;
+    float: left;
+}
+
+div.argentina-text {
+    text-align: left;
+    margin-right: 10px;
+    color: #000;
+    font-size: 17px;
+}
+
+
 /* E(ART)H */
 
 div.earth-images {
