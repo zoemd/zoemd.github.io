@@ -433,6 +433,17 @@ div.psa-video {
 div.studybreak-video {
     text-align: center;
     margin-top: 15px;
+    float: left;
+    margin-left: 2%;
+}
+
+div.studybreak-text {
+    width: 50%;
+    float: right;
+    margin-right: 4%;
+    text-align: left;
+    color: #000;
+    font-size: 17px;
 }
 
 /* Web Portfolio */
