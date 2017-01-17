@@ -168,9 +168,11 @@ section.clearfix{
 /* Large Screen */
 @media (max-width: 1650px) {
 	/* About Me */
-	
+	div.gross img { margin-left: 30%;}
+	div.aboutme { margin-right: 320px;}
 	
 	/* Promise Playground */
+	div.ppvideo { margin-left: 8%;}
 	div.pp-text { margin-right: 10%;}
 
 }
