@@ -702,6 +702,24 @@ div.pearls-text {
     color: #000;
 }
 
+/*EduGuide*/
+
+div.eduguide-video {
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+    margin-left: 2%;
+}
+
+div.eduguide-text {
+    width: 50%;
+    float: right;
+    margin-right: 4%;
+    text-align: left;
+    color: #000;
+    font-size: 17px;
+}
+
 /* Achievements */
 div.illustrator-image {
     text-align: center;
