@@ -520,6 +520,13 @@ div.ads-images a img.first {
     height: 418px;
 }
 
+div.ads-images p {
+    color: #000;
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
 div.ads-text {
     text-align: center;
     color: #000;
