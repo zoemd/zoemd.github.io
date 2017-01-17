@@ -455,6 +455,8 @@ div.web-banner {
 div.web-banner a img {
     height: 325px;
     width: 750px;
+	box-shadow: 2.5px 2.5px 0px black,
+                 4px 4px 0px rgba(150,150,150,.7);
 }
 
 /*Argentina Site */
@@ -474,6 +476,8 @@ div.argentina-site p {
 div.argentina-site a img {
     height: 500px;
     width: 765px;
+	box-shadow: 2.5px 2.5px 0px black,
+                 4px 4px 0px rgba(150,150,150,.7);
     float: left;
 }
 
@@ -490,6 +494,8 @@ div.argentina-text {
 div.earth-images {
     	width: 100%;
     	text-align: center;
+	box-shadow: 2.5px 2.5px 0px black,
+                 4px 4px 0px rgba(150,150,150,.7);
 }
 
 div.earth-images a img.earthlogo {
@@ -506,6 +512,8 @@ div.earth-images a img.card {
 
 div.fairuse-images {
     text-align: center;
+	box-shadow: 2.5px 2.5px 0px black,
+                 4px 4px 0px rgba(150,150,150,.7);
 }
 
 div.fairuse-images a img {
@@ -552,6 +560,9 @@ div.tokyo-text {
 div.parmigianos-images {
     text-align: center;
     width: 100%;
+	border: 2px solid #403E40;
+    box-shadow: 2.5px 2.5px 0px black,
+				 4px 4px 0px rgba(150,150,150,.7);
 }
 
 div.parmigianos-images a img {
@@ -573,6 +584,8 @@ div.parmigianos-text p {
 div.ads-images {
     text-align: center;
     width: 100%;
+	box-shadow: 2.5px 2.5px 0px black,
+				 4px 4px 0px rgba(150,150,150,.7);
 }
 
 div.ads-images a img {
@@ -602,6 +615,8 @@ div.ads-text {
 div.poster-images {
     width: 100%;
     text-align: center;
+	box-shadow: 2.5px 2.5px 0px black,
+				 4px 4px 0px rgba(150,150,150,.7);
 }
 
 div.poster-images img {
@@ -651,6 +666,8 @@ div.ghibli-p p {
 div.marketing-image {
     width: 100%;
     text-align: center;
+	box-shadow: 2.5px 2.5px 0px black,
+				 4px 4px 0px rgba(150,150,150,.7);
 }
 
 div.marketing-image a img {
@@ -687,6 +704,8 @@ div.pearls-image {
 
 div.pearls-image a img {
     height: 500px;
+	box-shadow: 2.5px 2.5px 0px black,
+				 4px 4px 0px rgba(150,150,150,.7);
 }
 
 div.pearls-image p {
