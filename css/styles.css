@@ -564,14 +564,14 @@ div.tokyo-text {
 div.parmigianos-images {
     text-align: center;
     width: 100%;
-	border: 2px solid #403E40;
-    box-shadow: 2.5px 2.5px 0px black,
-				 4px 4px 0px rgba(150,150,150,.7);
 }
 
 div.parmigianos-images a img {
     height: 300px;
     width: 364px;
+	border: 2px solid #403E40;
+    box-shadow: 2.5px 2.5px 0px black,
+				 4px 4px 0px rgba(150,150,150,.7);
 }
 
 div.parmigianos-text {
