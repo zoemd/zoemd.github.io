@@ -504,6 +504,28 @@ div.parmigianos-text p {
     font-size 15px;
 }
 
+/* Spanish Ads */
+
+div.ads-images {
+    text-align: center;
+    width: 100%;
+}
+
+div.ads-images a img {
+    width: 502px;
+}
+
+div.ads-images a img.first {
+    width: 502px;
+    height: 418px;
+}
+
+div.ads-text {
+    text-align: center;
+    color: #000;
+    font-size : 15px;
+}
+
 /* Ghibli Infographic */
 
 div.infographic {
