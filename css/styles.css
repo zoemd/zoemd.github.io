@@ -498,8 +498,6 @@ div.argentina-text {
 div.earth-images {
     	width: 100%;
     	text-align: center;
-	box-shadow: 2.5px 2.5px 0px black,
-                 4px 4px 0px rgba(150,150,150,.7);
 }
 
 div.earth-images a img.earthlogo {
@@ -510,6 +508,8 @@ div.earth-images a img.earthlogo {
 div.earth-images a img.card {
     	height: 300px;
 	width: 527px;
+	box-shadow: 2.5px 2.5px 0px black,
+                 4px 4px 0px rgba(150,150,150,.7);
 }
 
 /* Fair Use */
