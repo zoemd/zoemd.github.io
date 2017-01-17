@@ -165,6 +165,16 @@ section.clearfix{
     text-align: center;
 }
 
+/* Large Screen */
+@media (max-width: 1650px) {
+	/* About Me */
+	
+	
+	/* Promise Playground */
+	div.pp-text { margin-right: 10%;}
+
+}
+
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
 	.box{
