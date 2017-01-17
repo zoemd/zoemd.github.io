@@ -588,12 +588,12 @@ div.parmigianos-text p {
 div.ads-images {
     text-align: center;
     width: 100%;
-	box-shadow: 2.5px 2.5px 0px black,
-				 4px 4px 0px rgba(150,150,150,.7);
 }
 
 div.ads-images a img {
     width: 502px;
+	box-shadow: 2.5px 2.5px 0px black,
+				 4px 4px 0px rgba(150,150,150,.7);
 }
 
 div.ads-images a img.first {
