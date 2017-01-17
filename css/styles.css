@@ -523,6 +523,31 @@ div.fairuse-text p {
     font-size: 15px;
 }
 
+/* Tokyo Project */
+
+div.tokyo-images {
+    width: 100%;
+    text-align: center;
+}
+
+div.tokyo-images img {
+    height: 400px;
+    width: 515px;
+    border: 2px solid #403E40;
+    box-shadow: 2.5px 2.5px 0px black,
+				 4px 4px 0px rgba(150,150,150,.7);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.tokyo-text {
+    text-align: center;
+    font-size: 17px;
+    color: #000;
+    margin-left: 21%;
+    width: 60%;
+}
+
 /* Parmigianos */
 div.parmigianos-images {
     text-align: center;
