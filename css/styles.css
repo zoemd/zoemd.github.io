@@ -635,6 +635,7 @@ div.poster-images {
 div.poster-images a img {
     height: 350px;
     width: 682px;
+	border: 2px solid #403E40;
 	box-shadow: 2.5px 2.5px 0px black,
 				 4px 4px 0px rgba(150,150,150,.7);
 }
