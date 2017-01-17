@@ -561,6 +561,30 @@ div.bullying-text {
     font-size: 15px;
 }
 
+/* Pearls of Wisdom */
+
+div.pearls-image {
+    text-align: center;
+    width: 100%;
+}
+
+div.pearls-image a img {
+    height: 500px;
+}
+
+div.pearls-image p {
+    color: #000;
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+div.pearls-text {
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+}
+
 /* Achievements */
 div.illustrator-image {
     text-align: center;
