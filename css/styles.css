@@ -166,16 +166,16 @@ section.clearfix{
 }
 
 /* Large Screen */
-@media (max-width: 1650px) {
-	/* About Me */
+/*@media (max-width: 1650px) {
+	
 	div.gross img { margin-left: 30%;}
 	div.aboutme { margin-right: 320px;}
 	
-	/* Promise Playground */
+	
 	div.ppvideo { margin-left: 8%;}
 	div.pp-text { margin-right: 10%;}
 
-}
+}*/
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
