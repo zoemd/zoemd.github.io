@@ -449,6 +449,7 @@ div.studybreak-video {
 }
 
 div.studybreak-text {
+	margin-left: 24%;
     width: 50%;
     text-align: center;
     color: #000;
