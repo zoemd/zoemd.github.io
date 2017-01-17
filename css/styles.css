@@ -450,6 +450,7 @@ div.studybreak-video {
     margin-top: 15px;
     float: left;
     margin-left: 2%;
+	position: absolute;
 }
 
 div.studybreak-text {
@@ -459,7 +460,11 @@ div.studybreak-text {
     text-align: left;
     color: #000;
     font-size: 17px;
+	position: absolute;
 }
+
+/* Texting & Driving Video */
+
 
 /* Web Portfolio */
 
