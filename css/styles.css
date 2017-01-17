@@ -561,6 +561,24 @@ div.ads-text {
     font-size : 15px;
 }
 
+/* Culinary Poster */
+
+div.poster-images {
+    width: 100%;
+    text-align: center;
+}
+
+div.poster-images img {
+    height: 350px;
+    width: 682px;
+}
+
+div.poster-text {
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+}
+
 /* Ghibli Infographic */
 
 div.infographic {
