@@ -429,7 +429,7 @@ div.pplogo {
 }
 
 div.ppvideo {
-    text-align: center;
+    text-align: inherit;
 	width: 100%;
 }
 
