@@ -684,18 +684,21 @@ div.marketing-image {
 }
 
 div.marketing-image a img {
+    margin-left: 20%;
     height: 450px;
-	box-shadow: 2.5px 2.5px 0px black,
-				 4px 4px 0px rgba(150,150,150,.7);
+    float: left;
+    border: 2px solid #403E40;
+    box-shadow: 2.5px 2.5px 0px black,
+                 4px 4px 0px rgba(150,150,150,.7);
 }
 
 div.marketing-text {
-    text-align: center;
-}
-
-div.marketing-text p {
+    text-align: left;
     color: #000;
-    font-size: 15px;
+    font-size: 17px;
+    margin-right: 10%;
+    float: right;
+    width: 40%;
 }
 
 /* BUllying PSA */
