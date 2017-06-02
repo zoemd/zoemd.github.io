@@ -225,6 +225,17 @@ section.clearfix{
 	h1{
 		padding: .5em 0;
 	}
+    
+    section.clearfix{
+	width: 100%;
+	height: 400px;
+    margin-top: -5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    background: black url(../assets/images/heroimg0.jpg) no-repeat fixed;
+    }
+    
 	.header-left,
 	.header-right{
 		width: 100%;
@@ -237,6 +248,9 @@ section.clearfix{
 	}
 	.section-left{
 		text-align: center;
+        margin-left: 20%;
+        margin-top: 30%;
+        width: 60%;
 		padding: 2em 0;
 	}
 	.section-right{
@@ -306,7 +320,7 @@ section.clearfix{
         width: 100%;
 		text-align: center;
 		padding: 1em 0;
-        margin-top: 55%;
+        margin-top: 45%;
         margin-left: 1%;
 	}
 	.section-right{
