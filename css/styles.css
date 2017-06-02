@@ -36,7 +36,6 @@ body{
 .container{
 	width: 100%;
 	margin: 0 auto;
-    background: rgba(0,0,0,0.6);
 }
 header{
 	width: 100%;
@@ -129,7 +128,7 @@ section.clearfix{
     padding-top: 5%;
     padding-bottom: 5%;
     text-align: center;
-    background: url(../images/heroimg2.png) no-repeat center fixed;
+    background: url(../assets/images/heroimg2.png) no-repeat center fixed;
     
 }
 /*div.hero img{
