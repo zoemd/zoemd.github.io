@@ -2,7 +2,7 @@
 
 *{
   margin: 0;
-  padding: 0;
+    padding: 0;
 	outline: none;
 	border: none;
 	-webkit-box-sizing: border-box;
@@ -34,24 +34,25 @@ body{
   clear: both;
 }
 .container{
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
+    background: rgba(0,0,0,0.6);
 }
 header{
 	width: 100%;
 	height: auto;
-	background: black;
+	background: rgba(0,0,0,0.6);
 }
-
 .header-right{
 	position: relative;
 	color: white;
 	float: left;
+    background: rgba(0,0,0,0.4);
+    
 }
-
 .header-left{
 	width: 100%;
-	text-transform: uppcase;
+    text-transform: uppercase;
 }
 .header-right label{
 	position: absolute;
@@ -112,7 +113,7 @@ nav>a{
 	line-height: 40px;
     text-transform: uppercase;
 	padding: 0 3.3em;
-	/*-webkit-transition: all .4s ease;*/
+	-webkit-transition: all .7s ease;
 }
 nav>a:hover{
 	background: rgba(255,255,255,.9);
@@ -123,13 +124,19 @@ nav>a:hover{
 }
 section.clearfix{
 	width: 100%;
-	height: auto;
+	height: 730px;
+    margin-top: -5%;
     padding-top: 5%;
     padding-bottom: 5%;
     text-align: center;
-    background: black url('http://puu.sh/tmEfG/ab9df39205.jpg') no-repeat center;
+    background: black url(../images/heroimg2.png) no-repeat center fixed;
     
 }
+/*div.hero img{
+    margin-top: -63px;
+    width: 100%;
+    height: 700px;
+}*/
 /*.section-left,
 .section-right{
 	float: left;
@@ -137,9 +144,9 @@ section.clearfix{
 .section-left{
 	width: 30%;
     margin-left: 35%;
+    margin-top: 14%;
 	padding: 3em 0;
-    border: solid rgba(0,0,0,0.8);
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.6);
 }
 .section-right{
 	width: 30%;
@@ -165,19 +172,8 @@ section.clearfix{
     text-align: center;
 }
 
-/* Large Screen */
-/*@media (max-width: 1650px) {
-	
-	div.gross img { margin-left: 30%;}
-	div.aboutme { margin-right: 320px;}
-	
-	
-	div.ppvideo { margin-left: 8%;}
-	div.pp-text { margin-right: 10%;}
-
-}*/
-
 /* Portrait tablet to landscape and desktop */
+
 @media (min-width: 768px) and (max-width: 979px) {
 	.box{
 		width: 49%;
@@ -217,9 +213,6 @@ section.clearfix{
 	.section-tagline{
 		font-size: 1.3em;
 	}
-	.learn-more{
-		margin: 0 auto;
-	}
 }
  
 /* Landscape phone to portrait tablet */
@@ -257,26 +250,26 @@ section.clearfix{
 	.section-tagline{
 		font-size: 1.3em;
 	}
-	.learn-more{
-		margin: 0 auto;
-	}
 }
  
 /* Landscape phones and down */
 @media (max-width: 480px) {
 	body{
-		padding: 0 .5em;
+        width: 100%;
+		/*padding: 0 .5em;*/
 	}
 	.container{
 		width: 90%;
+        background-color: rgba(0,0,0,.4)
+
 	}
 	nav {
 		height: 0;
 		overflow: hidden;
-		/*-webkit-transition: all .6s ease;*/
+		-webkit-transition: all .6s ease;
 	}
 	input[type="checkbox"]:checked + nav{
-		height: 205px;
+		height: 245px;
 	}
 	nav>a{
 		padding: 0 1em;
@@ -285,21 +278,37 @@ section.clearfix{
 	}
 	h1{
 		padding: .5em 0;
+        
 	}
+    
+    section.clearfix{
+	width: 100%;
+	height: 400px;
+    margin-top: -5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    background: black url(../images/heroimg2.png) no-repeat center fixed;
+    
+}
 	.header-left,
 	.header-right{
 		width: 100%;
 		text-align: center;
         margin-top: 15px;
 	}
+    
 	.section-left,
 	.section-right{
 		width: 60%;
         margin-left: 86px;
 	}
 	.section-left{
+        width: 100%;
 		text-align: center;
 		padding: 1em 0;
+        margin-top: 55%;
+        margin-left: 1%;
 	}
 	.section-right{
 		text-align: center;
@@ -312,45 +321,22 @@ section.clearfix{
 	.section-tagline{
 		font-size: 1em;
 	}
-	.learn-more{
-		display: table;
-		margin: 0 auto;
-	}
 	.hidden-desktop{
 		display: block;
 	}
+    div.notworks {
+        width: 100%; 
+        margin-left: -1px;
+        text-align: center;
+    }
+    div.notworks img {
+        max-width: 230px;
+        max-height: 230px;
+    }
 }
 
 /* Small Screen */
 @media (max-width: 320px) {
-    
-}
-
-/* About Me */
-
-div.gross img {
-    float: left;
-    width: 270px;
-    height: 270px;
-    margin-left: 20%;
-    margin-top: 5%;
-    border: 2px solid #403E40;
-    text-align: center;
-    box-shadow: 2.5px 2.5px 0px black,
-				 4px 4px 0px rgba(150,150,150,.7);
-}
-
-div.aboutme {
-    display: block;
-    color: #000;
-    width: 40%;
-    margin-top: 5%;
-    margin-right: 230px;
-    float: right;
-}
-
-div.aboutme p {
-    font-size: 17px;
     
 }
 
@@ -430,37 +416,41 @@ div.pplogo {
 
 div.ppvideo {
     text-align: center;
-	width: 100%;
+    float: left;
+    margin-left: 2%;
 }
 
 div.pp-text {
-	margin-left: 24%;
     width: 50%;
-    text-align: center;
+    float: right;
+    margin-right: 4%;
+    text-align: left;
     color: #000;
-    font-size: 16px;
+    font-size: 15.2px;
+}
+/* Texting & Driving PSA */
+
+div.psa-video {
+    text-align: center;
+    margin-top: 15px
 }
 
 /* Study Break */
 
 div.studybreak-video {
     text-align: center;
-	width: 100%;
+    margin-top: 15px;
+    float: left;
+    margin-left: 2%;
 }
 
 div.studybreak-text {
-	margin-left: 24%;
     width: 50%;
-    text-align: center;
+    float: right;
+    margin-right: 4%;
+    text-align: left;
     color: #000;
     font-size: 17px;
-}
-
-/* Texting & Driving Video */
-
-div.psa-video {
-	text-align: center;
-	width: 100%;
 }
 
 /* Web Portfolio */
@@ -472,8 +462,126 @@ div.web-banner {
 div.web-banner a img {
     height: 325px;
     width: 750px;
-	box-shadow: 2.5px 2.5px 0px black,
+}
+
+/* E(ART)H */
+
+div.earth-images {
+    width: 100%;
+    text-align: center;
+}
+
+div.earth-images a img.earthlogo {
+    height: 125px;
+}
+
+div.earth-images a img.card {
+    height: 300px;
+}
+
+div.earth-text {
+    color: #000;
+    text-align: center;
+    font-size: 17px;
+    width: 55%;
+    margin-left: 22%;
+}
+
+/* Fair Use */
+
+div.fairuse-images {
+    text-align: center;
+}
+
+div.fairuse-images a img {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.fairuse-text {
+    text-align: center;
+}
+
+div.fairuse-text p {
+    color: #000;
+    font-size: 15px;
+}
+
+/* Parmigianos */
+div.parmigianos-images {
+    text-align: center;
+    width: 100%;
+}
+
+div.parmigianos-images a img {
+    height: 300px;
+    width: 364px;
+}
+
+div.parmigianos-text {
+    text-align: center;
+}
+
+div.parmigianos-text p {
+    color: #000;
+    font-size 15px;
+}
+
+/* Spanish Ads */
+
+div.ads-images {
+    text-align: center;
+    width: 100%;
+}
+
+div.ads-images a img {
+    width: 502px;
+    box-shadow: 2.5px 2.5px 0px black,
                  4px 4px 0px rgba(150,150,150,.7);
+}
+
+div.ads-images a img.first {
+    width: 502px;
+    height: 418px;
+}
+
+div.ads-images p {
+    color: #000;
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+div.ads-text {
+    text-align: center;
+    color: #000;
+    font-size : 15px;
+}
+
+/* Tokyo Project */
+
+div.tokyo-images {
+    width: 100%;
+    text-align: center;
+}
+
+div.tokyo-images img {
+    height: 400px;
+    width: 515px;
+    border: 2px solid #403E40;
+    box-shadow: 2.5px 2.5px 0px black,
+				 4px 4px 0px rgba(150,150,150,.7);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.tokyo-text {
+    text-align: center;
+    font-size: 17px;
+    color: #000;
+    margin-left: 21%;
+    width: 60%;
 }
 
 /*Argentina Site */
@@ -509,136 +617,6 @@ div.argentina-text {
     font-size: 17px;
 }
 
-
-/* E(ART)H */
-
-div.earth-images {
-    	width: 100%;
-    	text-align: center;
-}
-
-div.earth-images a img.earthlogo {
-    	height: 125px;
-	width: 240px;
-}
-
-div.earth-images a img.card {
-    	height: 300px;
-	width: 527px;
-	box-shadow: 2.5px 2.5px 0px black,
-                 4px 4px 0px rgba(150,150,150,.7);
-}
-
-div.earth-text {
-    color: #000;
-    text-align: center;
-    font-size: 17px;
-    width: 55%;
-    margin-left: 22%;
-}
-
-/* Fair Use */
-
-div.fairuse-images {
-    text-align: center;
-}
-
-div.fairuse-images a img {
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-	box-shadow: 2.5px 2.5px 0px black,
-                 4px 4px 0px rgba(150,150,150,.7);
-}
-
-div.fairuse-text {
-    text-align: center;
-}
-
-div.fairuse-text p {
-    color: #000;
-    font-size: 15px;
-}
-
-/* Tokyo Project */
-
-div.tokyo-images {
-    width: 100%;
-    text-align: center;
-}
-
-div.tokyo-images img {
-    height: 400px;
-    width: 515px;
-    border: 2px solid #403E40;
-    box-shadow: 2.5px 2.5px 0px black,
-				 4px 4px 0px rgba(150,150,150,.7);
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-div.tokyo-text {
-    text-align: center;
-    font-size: 17px;
-    color: #000;
-    margin-left: 21%;
-    width: 60%;
-}
-
-/* Parmigianos */
-div.parmigianos-images {
-    text-align: center;
-    width: 100%;
-}
-
-div.parmigianos-images a img {
-    height: 300px;
-    width: 364px;
-	border: 2px solid #403E40;
-    box-shadow: 2.5px 2.5px 0px black,
-				 4px 4px 0px rgba(150,150,150,.7);
-}
-
-div.parmigianos-text {
-    text-align: center;
-}
-
-div.parmigianos-text p {
-    color: #000;
-    font-size 15px;
-}
-
-/* Spanish Ads */
-
-div.ads-images {
-    text-align: center;
-    width: 100%;
-}
-
-div.ads-images a img {
-    width: 502px;
-	box-shadow: 2.5px 2.5px 0px black,
-				 4px 4px 0px rgba(150,150,150,.7);
-}
-
-div.ads-images a img.first {
-    width: 502px;
-    height: 418px;
-}
-
-div.ads-images p {
-    color: #000;
-    text-align: center;
-    font-size: 10px;
-    text-transform: uppercase;
-}
-
-div.ads-text {
-    text-align: center;
-    color: #000;
-    font-size : 15px;
-}
-
 /* Culinary Poster */
 
 div.poster-images {
@@ -646,12 +624,9 @@ div.poster-images {
     text-align: center;
 }
 
-div.poster-images a img {
+div.poster-images img {
     height: 350px;
     width: 682px;
-	border: 2px solid #403E40;
-	box-shadow: 2.5px 2.5px 0px black,
-				 4px 4px 0px rgba(150,150,150,.7);
 }
 
 div.poster-text {
@@ -813,3 +788,44 @@ div.app-image a img {
     height: 502px;
     width: 650px;
 }
+/* About Me */
+
+div.gross img {
+    float: left;
+    width: 270px;
+    height: 270px;
+    margin-left: 20%;
+    margin-top: 5%;
+    border: 2px solid #403E40;
+    text-align: center;
+    box-shadow: 2.5px 2.5px 0px black,
+				 4px 4px 0px rgba(150,150,150,.7);
+}
+
+div.aboutme {
+    display: block;
+    color: #000;
+    width: 40%;
+    margin-top: 5%;
+    margin-right: 230px;
+    float: right;
+}
+
+div.aboutme p {
+    font-size: 17px;
+    
+}
+
+/*footer {
+    padding: 25px 0;
+    text-align: center;
+    background-color: #000;
+}
+
+footer span.copyright {
+    line-height: 40px;
+    font-family: Muli, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-transform: none;
+    
+}*/
