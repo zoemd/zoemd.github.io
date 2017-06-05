@@ -11,9 +11,11 @@
 *:after{
 	-webkit-box-sizing: border-box;
 }
+
 .clearfix {
   *zoom: 1;
 }
+
 html{
 	font-family: Muli, Helvetica, arial, sans-serif;
 	font-size: 12px;
@@ -51,7 +53,7 @@ header{
 
 .header-left{
 	width: 100%;
-	text-transform: uppcase;
+	text-transform: uppercase;
 }
 .header-right label{
 	position: absolute;
@@ -199,6 +201,7 @@ section.clearfix{
 	nav>a{
 		padding: 0 1.5em;
 	}
+    
 	.section-left,
 	.section-right{
 		width: 50%;
@@ -396,6 +399,21 @@ div.notworks a img {
     transition: background-color .5s;
 }
 
+/*Resume*/
+
+div.resume {
+    text-align: center;
+    margin-top: 15px;
+}
+
+div.resume a img {
+    text-align: center;
+    color: #000;
+    border: 2px solid #403E40;
+	box-shadow: 2.5px 2.5px 0px black,
+				 4px 4px 0px rgba(150,150,150,.7);
+}
+
 /* Works */
 
 div.works {
@@ -445,21 +463,6 @@ div.kms p {
     transition: opacity .4s ease-in-out;
 }
 
-/*Resume*/
-
-div.resume {
-    text-align: center;
-    margin-top: 15px;
-}
-
-div.resume a img {
-    text-align: center;
-    color: #000;
-    border: 2px solid #403E40;
-	box-shadow: 2.5px 2.5px 0px black,
-				 4px 4px 0px rgba(150,150,150,.7);
-}
-
 /* Promise Playground */
 
 div.pplogo {
@@ -485,7 +488,6 @@ div.pp-text {
 div.studybreak-video {
     text-align: center;
 	width: 100%;
-	margin-top: 15px;
 }
 
 div.studybreak-text {
@@ -503,11 +505,35 @@ div.psa-video {
 	width: 100%;
 }
 
+/*EOC Site*/
+
+div.eoc {
+    text-align: center;
+    color: #000;
+    margin-top: 15px;
+}
+
+div.eoc a img {
+    height: 631px;
+    width: 700px;
+    text-align: center;
+    box-shadow: 2.5px 2.5px 0px black,
+                 4px 4px 0px rgba(150,150,150,.7);
+}
+
+div.eoc-p {
+    margin-top: 15px;
+    margin-left: 24%;
+    width: 50%;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+}
+
 /* Web Portfolio */
 
 div.web-banner {
     text-align: center;
-	margin-top: 15px;
 }
 
 div.web-banner a img {
@@ -578,6 +604,42 @@ div.earth-text {
     margin-left: 22%;
 }
 
+/* Lean Caffeine */
+
+div.leancaffeine {
+    margin-top: 15px;
+    text-align: center;
+    color: #000;
+}
+
+div.leancaffeine a img {
+    height: 286px;
+    width: 503px;
+}
+
+div.leancaffeine-p {
+    color: #000;
+    text-align: center;
+}
+
+/*Aesthete*/
+
+div.aesthete {
+    text-align: center;
+    color: #000;
+    margin-top: 15px;
+}
+
+div.aesthete a img {
+    text-align: center;
+    width: 546px;
+    height: 800px;
+}
+
+div.aesthete-p {
+    text-align: center;
+    color: #000;
+}
 /* Fair Use */
 
 div.fairuse-images {
@@ -646,7 +708,7 @@ div.parmigianos-text {
 
 div.parmigianos-text p {
     color: #000;
-    font-size 15px;
+    font-size: 15px;
 }
 
 /* Spanish Ads */
@@ -761,7 +823,6 @@ div.marketing-text {
 
 div.bullying-video {
     text-align: center;
-	margin-top: 15px;
 }
 
 div.bullying-text {
@@ -823,14 +884,11 @@ div.eduguide-text {
 /* Achievements */
 div.illustrator-image {
     text-align: center;
-	margin-top: 15px;
 }
 
 div.illustrator-image a img {
     height: 502px;
     width: 650px;
-	box-shadow: 2.5px 2.5px 0px black,
-				 4px 4px 0px rgba(150,150,150,.7);
 }
 
 div.illustrator-text {
@@ -839,14 +897,11 @@ div.illustrator-text {
 
 div.photoshop-image {
     text-align: center;
-	margin-top: 15px;
 }
 
 div.photoshop-image a img {
     height: 502px;
     width: 650px;
-	box-shadow: 2.5px 2.5px 0px black,
-				 4px 4px 0px rgba(150,150,150,.7);
 }
 
 div.photoshop-text {
@@ -855,19 +910,9 @@ div.photoshop-text {
 
 div.app-image {
     text-align: center;
-	margin-top: 15px;
 }
 
 div.app-image a img {
     height: 502px;
     width: 650px;
-	box-shadow: 2.5px 2.5px 0px black,
-				 4px 4px 0px rgba(150,150,150,.7);
-}
-
-div.capstone {
-	text-align: center;
-	color: #000;
-	margin-top: 15px;
-	font-size: 2em;
 }
