@@ -825,6 +825,9 @@ div.illustrator-image {
 div.illustrator-image a img {
     height: 502px;
     width: 650px;
+	border: 2px solid #403E40;
+	box-shadow: 2.5px 2.5px 0px black,
+				 4px 4px 0px rgba(150,150,150,.7);
 }
 
 div.illustrator-text {
@@ -838,6 +841,9 @@ div.photoshop-image {
 div.photoshop-image a img {
     height: 502px;
     width: 650px;
+	border: 2px solid #403E40;
+	box-shadow: 2.5px 2.5px 0px black,
+				 4px 4px 0px rgba(150,150,150,.7);
 }
 
 div.photoshop-text {
@@ -851,4 +857,7 @@ div.app-image {
 div.app-image a img {
     height: 502px;
     width: 650px;
+	border: 2px solid #403E40;
+	box-shadow: 2.5px 2.5px 0px black,
+				 4px 4px 0px rgba(150,150,150,.7);
 }
