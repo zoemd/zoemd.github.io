@@ -485,6 +485,7 @@ div.pp-text {
 div.studybreak-video {
     text-align: center;
 	width: 100%;
+	margin-top: 15px;
 }
 
 div.studybreak-text {
@@ -506,6 +507,7 @@ div.psa-video {
 
 div.web-banner {
     text-align: center;
+	margin-top: 15px;
 }
 
 div.web-banner a img {
@@ -759,6 +761,7 @@ div.marketing-text {
 
 div.bullying-video {
     text-align: center;
+	margin-top: 15px;
 }
 
 div.bullying-text {
