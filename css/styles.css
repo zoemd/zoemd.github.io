@@ -861,3 +861,10 @@ div.app-image a img {
 	box-shadow: 2.5px 2.5px 0px black,
 				 4px 4px 0px rgba(150,150,150,.7);
 }
+
+div.capstone {
+	text-align: center;
+	color: #000;
+	margin-top: 15px;
+	font-size: 2em;
+}
