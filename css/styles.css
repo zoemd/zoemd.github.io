@@ -929,3 +929,10 @@ div.capstone {
 	margin-top: 15px;
 	font-size: 2em;
 }
+
+div.capstone p {
+	text-align: center;
+	margin-top: 15px;
+	font-size: 2em;
+	color: #000;
+}
